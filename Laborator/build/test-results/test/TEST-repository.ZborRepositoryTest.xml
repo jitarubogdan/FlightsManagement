@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.ZborRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-18T21:07:20" hostname="Bogdan-PC" time="0.174">
+  <properties/>
+  <testcase name="delete" classname="repository.ZborRepositoryTest" time="0.002"/>
+  <testcase name="findAll" classname="repository.ZborRepositoryTest" time="0.015"/>
+  <testcase name="findOne" classname="repository.ZborRepositoryTest" time="0.012"/>
+  <testcase name="save" classname="repository.ZborRepositoryTest" time="0.145"/>
+  <system-out><![CDATA[18 Mar 2019 23:07:20,061 TRACE repository.ZborRepository 87 findAll - Enter
+18 Mar 2019 23:07:20,061 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,061 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:20,061 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:20,061 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:20,061 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@72fec066)
+18 Mar 2019 23:07:20,061 TRACE repository.ZborRepository 106 findAll - Exit with([Zbor{id=1, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}])
+18 Mar 2019 23:07:20,061 TRACE repository.ZborRepository 87 findAll - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:20,076 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:20,076 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@796dda1b)
+18 Mar 2019 23:07:20,076 TRACE repository.ZborRepository 106 findAll - Exit with([Zbor{id=1, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}])
+18 Mar 2019 23:07:20,076 TRACE repository.ZborRepository 47 findOne - Enter cautare zbor cu id 
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@796dda1b)
+18 Mar 2019 23:07:20,076 TRACE repository.ZborRepository 47 findOne - Enter cautare zbor cu id 
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@796dda1b)
+18 Mar 2019 23:07:20,076 TRACE repository.ZborRepository 67 findOne - Exit: Niciun zbor gasit 
+18 Mar 2019 23:07:20,076 TRACE repository.ZborRepository 87 findAll - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:20,076 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:20,076 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:20,076 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@5786bea9)
+18 Mar 2019 23:07:20,092 TRACE repository.ZborRepository 106 findAll - Exit with([Zbor{id=1, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}])
+18 Mar 2019 23:07:20,108 TRACE repository.ZborRepository 28 save - Enter salvare zbor
+18 Mar 2019 23:07:20,108 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,108 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@5786bea9)
+18 Mar 2019 23:07:20,155 TRACE repository.ZborRepository 42 save - Exit
+18 Mar 2019 23:07:20,155 TRACE repository.ZborRepository 87 findAll - Enter
+18 Mar 2019 23:07:20,155 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,155 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@5786bea9)
+18 Mar 2019 23:07:20,170 TRACE repository.ZborRepository 106 findAll - Exit with([Zbor{id=1, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}, Zbor{id=2, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}])
+18 Mar 2019 23:07:20,170 TRACE repository.ZborRepository 73 delete - Enter stergere element cu id 
+18 Mar 2019 23:07:20,170 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,170 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@5786bea9)
+18 Mar 2019 23:07:20,217 TRACE repository.ZborRepository 82 delete - Exit
+18 Mar 2019 23:07:20,217 TRACE repository.ZborRepository 87 findAll - Enter
+18 Mar 2019 23:07:20,217 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,217 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@5786bea9)
+18 Mar 2019 23:07:20,217 TRACE repository.ZborRepository 106 findAll - Exit with([Zbor{id=1, destinatie='Suceava', plecare=2016-11-09T00:00, aeroport='Otopeni', locuri=30}])
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

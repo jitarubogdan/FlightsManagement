@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.BiletRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-18T21:07:19" hostname="Bogdan-PC" time="0.266">
+  <properties/>
+  <testcase name="delete" classname="repository.BiletRepositoryTest" time="0.032"/>
+  <testcase name="findAll" classname="repository.BiletRepositoryTest" time="0.004"/>
+  <testcase name="findOne" classname="repository.BiletRepositoryTest" time="0.007"/>
+  <testcase name="save" classname="repository.BiletRepositoryTest" time="0.221"/>
+  <system-out><![CDATA[18 Mar 2019 23:07:19,326 TRACE repository.BiletRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,326 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,326 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,326 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,326 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,326 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@1a53d7e1)
+18 Mar 2019 23:07:19,326 TRACE repository.BiletRepository 97 findAll - Exit with([Bilet{id=1, idZbor=1, idClient=1}])
+18 Mar 2019 23:07:19,326 TRACE repository.BiletRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,326 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,326 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,326 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,326 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,342 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2f7516c4)
+18 Mar 2019 23:07:19,343 TRACE repository.BiletRepository 97 findAll - Exit with([Bilet{id=1, idZbor=1, idClient=1}])
+18 Mar 2019 23:07:19,344 TRACE repository.BiletRepository 42 findOne - Enter cautare bilet cu id 
+18 Mar 2019 23:07:19,344 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,345 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2f7516c4)
+18 Mar 2019 23:07:19,345 TRACE repository.BiletRepository 42 findOne - Enter cautare bilet cu id 
+18 Mar 2019 23:07:19,346 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,346 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2f7516c4)
+18 Mar 2019 23:07:19,347 TRACE repository.BiletRepository 60 findOne - Exit: Niciun bilet gasit 
+18 Mar 2019 23:07:19,347 TRACE repository.BiletRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,348 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,348 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,348 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,349 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,350 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2666a6c4)
+18 Mar 2019 23:07:19,351 TRACE repository.BiletRepository 97 findAll - Exit with([Bilet{id=1, idZbor=1, idClient=1}])
+18 Mar 2019 23:07:19,351 TRACE repository.BiletRepository 25 save - Enter salvare bilet
+18 Mar 2019 23:07:19,352 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,352 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2666a6c4)
+18 Mar 2019 23:07:19,498 TRACE repository.BiletRepository 37 save - Exit
+18 Mar 2019 23:07:19,498 TRACE repository.BiletRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,498 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,498 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2666a6c4)
+18 Mar 2019 23:07:19,498 TRACE repository.BiletRepository 97 findAll - Exit with([Bilet{id=1, idZbor=1, idClient=1}, Bilet{id=2, idZbor=1, idClient=2}])
+18 Mar 2019 23:07:19,498 TRACE repository.BiletRepository 66 delete - Enter stergere element cu id 
+18 Mar 2019 23:07:19,498 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,498 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2666a6c4)
+18 Mar 2019 23:07:19,561 TRACE repository.BiletRepository 75 delete - Exit
+18 Mar 2019 23:07:19,561 TRACE repository.BiletRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,561 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,561 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@2666a6c4)
+18 Mar 2019 23:07:19,561 TRACE repository.BiletRepository 97 findAll - Exit with([Bilet{id=1, idZbor=1, idClient=1}])
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

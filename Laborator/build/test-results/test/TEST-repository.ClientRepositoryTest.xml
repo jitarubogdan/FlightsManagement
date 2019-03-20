@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.ClientRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-18T21:07:19" hostname="Bogdan-PC" time="0.482">
+  <properties/>
+  <testcase name="findAll" classname="repository.ClientRepositoryTest" time="0.016"/>
+  <testcase name="findOne" classname="repository.ClientRepositoryTest" time="0.011"/>
+  <testcase name="save" classname="repository.ClientRepositoryTest" time="0.455"/>
+  <system-out><![CDATA[18 Mar 2019 23:07:19,561 TRACE repository.ClientRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,561 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,561 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,561 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,561 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,577 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@7e1f27b8)
+18 Mar 2019 23:07:19,577 TRACE repository.ClientRepository 97 findAll - Exit with([Client{id=1, nume='Bogdan', adresa='Berchisesti'}, Client{id=2, nume='Bogdan', adresa='Berchisesti'}])
+18 Mar 2019 23:07:19,577 TRACE repository.ClientRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,577 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,577 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,577 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,577 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,577 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@4dd36783)
+18 Mar 2019 23:07:19,577 TRACE repository.ClientRepository 97 findAll - Exit with([Client{id=1, nume='Bogdan', adresa='Berchisesti'}, Client{id=2, nume='Bogdan', adresa='Berchisesti'}])
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 56 findOne - Enter cautare client cu id 
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@4dd36783)
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 56 findOne - Enter cautare client cu id 
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@4dd36783)
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 74 findOne - Exit: Niciun client gasit 
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:19,592 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:19,592 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,592 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@41620d0)
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 97 findAll - Exit with([Client{id=1, nume='Bogdan', adresa='Berchisesti'}, Client{id=2, nume='Bogdan', adresa='Berchisesti'}])
+18 Mar 2019 23:07:19,592 TRACE repository.ClientRepository 26 save - Enter salvare client 
+18 Mar 2019 23:07:19,608 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,608 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@41620d0)
+18 Mar 2019 23:07:19,670 TRACE repository.ClientRepository 37 save - Exit
+18 Mar 2019 23:07:19,670 TRACE repository.ClientRepository 80 findAll - Enter
+18 Mar 2019 23:07:19,670 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,670 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@41620d0)
+18 Mar 2019 23:07:19,670 TRACE repository.ClientRepository 97 findAll - Exit with([Client{id=1, nume='Bogdan', adresa='Berchisesti'}, Client{id=2, nume='Bogdan', adresa='Berchisesti'}, Client{id=3, nume='Bogdan', adresa='Berchisesti'}])
+18 Mar 2019 23:07:19,670 TRACE repository.ClientRepository 42 delete - Enter stergere element cu id 
+18 Mar 2019 23:07:19,670 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,670 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@41620d0)
+18 Mar 2019 23:07:20,046 TRACE repository.ClientRepository 51 delete - Exit
+18 Mar 2019 23:07:20,046 TRACE repository.ClientRepository 80 findAll - Enter
+18 Mar 2019 23:07:20,046 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:20,046 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@41620d0)
+18 Mar 2019 23:07:20,046 TRACE repository.ClientRepository 97 findAll - Exit with([Client{id=1, nume='Bogdan', adresa='Berchisesti'}, Client{id=2, nume='Bogdan', adresa='Berchisesti'}])
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

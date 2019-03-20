@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.AngajatRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-18T21:07:16" hostname="Bogdan-PC" time="2.417">
+  <properties/>
+  <testcase name="isAngajat" classname="repository.AngajatRepositoryTest" time="2.417"/>
+  <system-out><![CDATA[2019-03-18 23:07:17,640 Test worker DEBUG Initializing configuration XmlConfiguration[location=D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml]
+2019-03-18 23:07:17,671 Test worker DEBUG Installed script engines
+2019-03-18 23:07:18,124 Test worker DEBUG Oracle Nashorn Version: 10.0.2, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2019-03-18 23:07:18,124 Test worker DEBUG PluginManager 'Core' found 112 plugins
+2019-03-18 23:07:18,124 Test worker DEBUG PluginManager 'Level' found 0 plugins
+2019-03-18 23:07:18,124 Test worker DEBUG PluginManager 'Lookup' found 13 plugins
+2019-03-18 23:07:18,140 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-03-18 23:07:18,140 Test worker TRACE TypeConverterRegistry initializing.
+2019-03-18 23:07:18,140 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+2019-03-18 23:07:18,155 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-03-18 23:07:18,155 Test worker DEBUG PluginManager 'Converter' found 41 plugins
+2019-03-18 23:07:18,187 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2019-03-18 23:07:18,187 Test worker DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="Console", Configuration(D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml), Filter=null)
+2019-03-18 23:07:18,187 Test worker DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+2019-03-18 23:07:18,187 Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2019-03-18 23:07:18,187 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-03-18 23:07:18,202 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-03-18 23:07:18,202 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2019-03-18 23:07:18,202 Test worker DEBUG FileAppender$Builder(fileName="target/test.log", append="true", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="log", Configuration(D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml), Filter=null)
+2019-03-18 23:07:18,233 Test worker DEBUG Starting FileManager target/test.log
+2019-03-18 23:07:18,233 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2019-03-18 23:07:18,249 Test worker DEBUG createAppenders(={Console, log})
+2019-03-18 23:07:18,249 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-03-18 23:07:18,249 Test worker DEBUG createAppenderRef(ref="log", level="null", Filter=null)
+2019-03-18 23:07:18,249 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-03-18 23:07:18,249 Test worker DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2019-03-18 23:07:18,249 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2019-03-18 23:07:18,249 Test worker DEBUG createLogger(additivity="null", level="TRACE", includeLocation="null", ={log, Console}, ={}, Configuration(D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml), Filter=null)
+2019-03-18 23:07:18,249 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2019-03-18 23:07:18,265 Test worker DEBUG createLoggers(={root})
+2019-03-18 23:07:18,265 Test worker DEBUG Configuration XmlConfiguration[location=D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml] initialized
+2019-03-18 23:07:18,265 Test worker DEBUG Starting configuration XmlConfiguration[location=D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml]
+2019-03-18 23:07:18,265 Test worker DEBUG Started configuration XmlConfiguration[location=D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml] OK.
+2019-03-18 23:07:18,265 Test worker TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@2ba1de8c...
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration stopping root LoggerConfig.
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration stopping remaining Appenders.
+2019-03-18 23:07:18,265 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2019-03-18 23:07:18,265 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2019-03-18 23:07:18,265 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2019-03-18 23:07:18,265 Test worker TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2019-03-18 23:07:18,265 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@2ba1de8c OK
+2019-03-18 23:07:18,327 Test worker TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@145ca6b
+2019-03-18 23:07:18,327 Test worker TRACE Reregistering context (1/1): '5ef04b5' org.apache.logging.log4j.core.LoggerContext@4e5addf3
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=StatusLogger'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=ContextSelector'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=*'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=*'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=AsyncAppenders,name=*'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=AsyncLoggerRingBuffer'
+2019-03-18 23:07:18,327 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=*,subtype=RingBuffer'
+2019-03-18 23:07:18,327 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5
+2019-03-18 23:07:18,343 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=StatusLogger
+2019-03-18 23:07:18,343 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=ContextSelector
+2019-03-18 23:07:18,343 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=
+2019-03-18 23:07:18,343 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=Console
+2019-03-18 23:07:18,343 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=log
+2019-03-18 23:07:18,358 Test worker TRACE Using default SystemClock for timestamps.
+2019-03-18 23:07:18,358 Test worker TRACE Using DummyNanoClock for nanosecond timestamps.
+2019-03-18 23:07:18,358 Test worker DEBUG Reconfiguration complete for context[name=5ef04b5] at URI D:\FACULTATE\Anul II\MPP\Laborator\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@4e5addf3) with optional ClassLoader: null
+2019-03-18 23:07:18,358 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+2019-03-18 23:07:18,358 Test worker DEBUG LoggerContext[name=5ef04b5, org.apache.logging.log4j.core.LoggerContext@4e5addf3] started OK.
+18 Mar 2019 23:07:18,376 TRACE repository.AngajatRepository 24 isAngajat - Enter cautare angajat cu id si parola 
+18 Mar 2019 23:07:18,400 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:18,401 TRACE repository.DataBaseUtils 23 getNewConnection - Enter
+18 Mar 2019 23:07:18,401 INFO  repository.DataBaseUtils 26 getNewConnection - connect to database 
+18 Mar 2019 23:07:18,422 INFO  repository.DataBaseUtils 30 getNewConnection - Loaded driver 
+18 Mar 2019 23:07:19,232 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@73370668)
+18 Mar 2019 23:07:19,279 TRACE repository.AngajatRepository 24 isAngajat - Enter cautare angajat cu id si parola 
+18 Mar 2019 23:07:19,279 TRACE repository.DataBaseUtils 44 getConnection - Enter
+18 Mar 2019 23:07:19,279 TRACE repository.DataBaseUtils 52 getConnection - Exit with(org.sqlite.SQLiteConnection@73370668)
+18 Mar 2019 23:07:19,279 TRACE repository.AngajatRepository 43 isAngajat - Exit: Niciun angajat gasit cu id
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
